@@ -1,0 +1,118 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:7bd741e0-007e-4c36-b0d7-3b476469840b",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:08:30Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:08:30Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-P 1179_CU",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 P 1179 Customer (CU) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:08:30Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_CU"
+    },
+    "dcat:keyword": "CU",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/Customers/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:363fab22-1677-4990-a0b1-9b934f1f547a"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:032d9044-473c-58ee-a1ad-d9f720a38091",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "032d9044-473c-58ee-a1ad-d9f720a38091",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:fc980bda-c6c2-59b1-8727-20564bcc2c71"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:ab689940-0c37-58c6-85a7-b379c0932fe1",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "ab689940-0c37-58c6-85a7-b379c0932fe1",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:fc980bda-c6c2-59b1-8727-20564bcc2c71"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:17669f33-2ae6-5eb8-80df-084727b3e3db",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "17669f33-2ae6-5eb8-80df-084727b3e3db",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:fc980bda-c6c2-59b1-8727-20564bcc2c71"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:15748577-c15f-5ae8-9db2-0b54ecdfe7f5",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "15748577-c15f-5ae8-9db2-0b54ecdfe7f5",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:fc980bda-c6c2-59b1-8727-20564bcc2c71"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:7c033abf-44b7-50b5-8cbf-8b1fa2601196",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "7c033abf-44b7-50b5-8cbf-8b1fa2601196",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:e84cf8b8-4399-50ec-b556-d9e5b9320c1f"
+                }
+            ]
+        }
+    ]
+}

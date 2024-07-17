@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:e44c990a-4e56-4358-8ba3-0b12e6cec2cd",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:07:50Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:07:50Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-NS6800_CU",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 NS6800 Customer (CU) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:07:50Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_CU"
+    },
+    "dcat:keyword": "CU",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/Customers/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:a6a34078-8889-4ec5-a8e4-305345f59607"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:c063a92f-d9e9-51c6-9c19-4a03deecea7b",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c063a92f-d9e9-51c6-9c19-4a03deecea7b",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:dd3505a4-fad9-5ed6-9e8d-a49401908a99"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:afd88348-33c0-5ca1-9f54-b969be54c816",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "afd88348-33c0-5ca1-9f54-b969be54c816",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1801b98e-67f5-5d6d-ba2b-314fb27f0460"
+                }
+            ]
+        }
+    ]
+}

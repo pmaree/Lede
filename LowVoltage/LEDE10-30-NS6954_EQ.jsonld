@@ -1,0 +1,365 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:23eae5fe-5dd1-4984-98f4-f5ec3071e5e4",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:06:36Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:06:36Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-NS6954_EQ",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 NS6954 Core Equipment (EQ) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:06:36Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_EQ"
+    },
+    "dcat:keyword": "EQ",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:0ff37936-0175-588b-b666-8187e576217d",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "0ff37936-0175-588b-b666-8187e576217d",
+            "cim:IdentifiedObject.description": "None",
+            "cim:IdentifiedObject.name": "LK54946",
+            "cim:Conductor.length": 9.313757522913178,
+            "cim:ACLineSegment.r": 0.0011642196903641473,
+            "cim:ACLineSegment.x": 0.0007544143615765404
+        },
+        {
+            "@id": "urn:uuid:85464578-8e7e-51f0-91c5-c9793c2461f6",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "85464578-8e7e-51f0-91c5-c9793c2461f6",
+            "cim:IdentifiedObject.description": "None",
+            "cim:IdentifiedObject.name": "LK54947",
+            "cim:Conductor.length": 9.17718030337206,
+            "cim:ACLineSegment.r": 0.0011471475379215075,
+            "cim:ACLineSegment.x": 0.0007433516067611474
+        },
+        {
+            "@id": "urn:uuid:5e882357-27b4-5cf8-adb3-d370a39906ae",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "5e882357-27b4-5cf8-adb3-d370a39906ae",
+            "cim:IdentifiedObject.description": "None",
+            "cim:IdentifiedObject.name": "LK54948",
+            "cim:Conductor.length": 9.16253560808422,
+            "cim:ACLineSegment.r": 0.0011453169510105274,
+            "cim:ACLineSegment.x": 0.0007421653864393407
+        },
+        {
+            "@id": "urn:uuid:c4603cf1-00f4-59e2-8314-f9cf152f9eea",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "c4603cf1-00f4-59e2-8314-f9cf152f9eea",
+            "cim:IdentifiedObject.description": "None",
+            "cim:IdentifiedObject.name": "LK54949",
+            "cim:Conductor.length": 9.28831626496777,
+            "cim:ACLineSegment.r": 0.0011610395331209712,
+            "cim:ACLineSegment.x": 0.0007523536196768967
+        },
+        {
+            "@id": "urn:uuid:252b0844-acca-5416-a982-6f6f4a3672cb",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "252b0844-acca-5416-a982-6f6f4a3672cb",
+            "cim:IdentifiedObject.description": "None",
+            "cim:IdentifiedObject.name": "LK54950",
+            "cim:Conductor.length": 9.67687043682793,
+            "cim:ACLineSegment.r": 0.0012096088046034913,
+            "cim:ACLineSegment.x": 0.0007838265076902082
+        },
+        {
+            "@id": "urn:uuid:07f382d2-d43b-5368-b097-8529d772c593",
+            "@type": "cim:Breaker",
+            "cim:IdentifiedObject.mRID": "07f382d2-d43b-5368-b097-8529d772c593",
+            "cim:IdentifiedObject.description": "Breaker 2 in NS6954 - tavle 1 with direction towards Prestemoen 4 ladestasjon Circle K and Prestemoen 4 ladestasjon Circle K and Prestemoen 4 ladestasjon Circle K and Prestemoen 4 ladestasjon Circle K and Prestemoen 4 ladestasjon Circle K",
+            "cim:IdentifiedObject.name": "2",
+            "cim:Switch.normalOpen": false
+        },
+        {
+            "@id": "urn:uuid:8722a8ce-a362-56aa-a839-c0c39692fe4f",
+            "@type": "cim:ConformLoad",
+            "cim:IdentifiedObject.mRID": "8722a8ce-a362-56aa-a839-c0c39692fe4f",
+            "cim:IdentifiedObject.name": "1075916"
+        },
+        {
+            "@id": "urn:uuid:35bf9eaf-86c6-5b24-a666-04aecf5855d6",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "35bf9eaf-86c6-5b24-a666-04aecf5855d6",
+            "cim:IdentifiedObject.description": "11/400, 331679, in NS6954",
+            "cim:IdentifiedObject.name": "331679",
+            "cim:Equipment.EquipmentContainer": {
+                "@id": "urn:uuid:3a5d673b-75f4-51bb-8533-f884982ec80f"
+            }
+        },
+        {
+            "@id": "urn:uuid:5b977984-c6e5-50f1-a59e-e6ae21598339",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "5b977984-c6e5-50f1-a59e-e6ae21598339",
+            "cim:TransformerEnd.endNumber": 1,
+            "cim:PowerTransformerEnd.ratedS": 1000000.0,
+            "cim:PowerTransformerEnd.ratedU": 11000.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:755e6e66-67ad-58ca-9391-e3a5fa16ccf3"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:35bf9eaf-86c6-5b24-a666-04aecf5855d6"
+            }
+        },
+        {
+            "@id": "urn:uuid:b3b0ff5d-37fe-5267-aef8-9f6cc6358fd4",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "b3b0ff5d-37fe-5267-aef8-9f6cc6358fd4",
+            "cim:TransformerEnd.endNumber": 2,
+            "cim:PowerTransformerEnd.ratedS": 1000000.0,
+            "cim:PowerTransformerEnd.ratedU": 415.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:1a82521d-6999-5dae-aa32-1b388123d427"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:35bf9eaf-86c6-5b24-a666-04aecf5855d6"
+            }
+        },
+        {
+            "@id": "urn:uuid:3a5d673b-75f4-51bb-8533-f884982ec80f",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "3a5d673b-75f4-51bb-8533-f884982ec80f",
+            "cim:IdentifiedObject.description": "Prestemoen 4",
+            "cim:IdentifiedObject.name": "NS6954"
+        },
+        {
+            "@id": "urn:uuid:c26b90eb-2ec8-521e-945f-4afffdacd259",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "c26b90eb-2ec8-521e-945f-4afffdacd259",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:0ff37936-0175-588b-b666-8187e576217d"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889"
+            }
+        },
+        {
+            "@id": "urn:uuid:3955e218-c8d5-5a98-81a2-ba2740c50a87",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "3955e218-c8d5-5a98-81a2-ba2740c50a87",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:85464578-8e7e-51f0-91c5-c9793c2461f6"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889"
+            }
+        },
+        {
+            "@id": "urn:uuid:cc1617f0-f593-5425-b394-86ed330e3038",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "cc1617f0-f593-5425-b394-86ed330e3038",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:5e882357-27b4-5cf8-adb3-d370a39906ae"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889"
+            }
+        },
+        {
+            "@id": "urn:uuid:6aa92d8f-6d20-5071-98cd-3dc6c22c30e6",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "6aa92d8f-6d20-5071-98cd-3dc6c22c30e6",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:c4603cf1-00f4-59e2-8314-f9cf152f9eea"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889"
+            }
+        },
+        {
+            "@id": "urn:uuid:fdf461e7-0a7c-5a6f-aaec-0b18199b288c",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "fdf461e7-0a7c-5a6f-aaec-0b18199b288c",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:252b0844-acca-5416-a982-6f6f4a3672cb"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889"
+            }
+        },
+        {
+            "@id": "urn:uuid:e5179ce7-f2e8-5036-9183-1c5603f49964",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "e5179ce7-f2e8-5036-9183-1c5603f49964",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:0ff37936-0175-588b-b666-8187e576217d"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33"
+            }
+        },
+        {
+            "@id": "urn:uuid:05805e03-8ec2-55e7-b439-f4f18265b6f5",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "05805e03-8ec2-55e7-b439-f4f18265b6f5",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:85464578-8e7e-51f0-91c5-c9793c2461f6"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33"
+            }
+        },
+        {
+            "@id": "urn:uuid:52a2a614-7da8-50a5-a754-5ebabfa36e8f",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "52a2a614-7da8-50a5-a754-5ebabfa36e8f",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:5e882357-27b4-5cf8-adb3-d370a39906ae"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33"
+            }
+        },
+        {
+            "@id": "urn:uuid:6e155887-c16d-5ef8-9b58-3aaf0077a295",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "6e155887-c16d-5ef8-9b58-3aaf0077a295",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:c4603cf1-00f4-59e2-8314-f9cf152f9eea"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33"
+            }
+        },
+        {
+            "@id": "urn:uuid:baa66e09-ce72-5c8a-99d0-e926a0a38eb0",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "baa66e09-ce72-5c8a-99d0-e926a0a38eb0",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:252b0844-acca-5416-a982-6f6f4a3672cb"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33"
+            }
+        },
+        {
+            "@id": "urn:uuid:b4358a62-a5e8-5620-af96-a59ddd4c3720",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "b4358a62-a5e8-5620-af96-a59ddd4c3720",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:8722a8ce-a362-56aa-a839-c0c39692fe4f"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33"
+            }
+        },
+        {
+            "@id": "urn:uuid:1a82521d-6999-5dae-aa32-1b388123d427",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "1a82521d-6999-5dae-aa32-1b388123d427",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:35bf9eaf-86c6-5b24-a666-04aecf5855d6"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d5dbf79c-729d-5525-a540-8ea1986b2b53"
+            }
+        },
+        {
+            "@id": "urn:uuid:755e6e66-67ad-58ca-9391-e3a5fa16ccf3",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "755e6e66-67ad-58ca-9391-e3a5fa16ccf3",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:35bf9eaf-86c6-5b24-a666-04aecf5855d6"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:24cc48d2-efda-5c37-ac22-07489485456e"
+            }
+        },
+        {
+            "@id": "urn:uuid:e3886b77-8a39-5d0a-afb8-d0137eaca83e",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "e3886b77-8a39-5d0a-afb8-d0137eaca83e",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:07f382d2-d43b-5368-b097-8529d772c593"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d5dbf79c-729d-5525-a540-8ea1986b2b53"
+            }
+        },
+        {
+            "@id": "urn:uuid:a61c1656-09ee-58db-acad-0a080d531cd2",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "a61c1656-09ee-58db-acad-0a080d531cd2",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:07f382d2-d43b-5368-b097-8529d772c593"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889"
+            }
+        },
+        {
+            "@id": "urn:uuid:d606499c-e510-5e10-a308-82b060fab889",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "d606499c-e510-5e10-a308-82b060fab889"
+        },
+        {
+            "@id": "urn:uuid:d45ef481-2c63-598e-9b8d-79be1f10ee33",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "d45ef481-2c63-598e-9b8d-79be1f10ee33"
+        },
+        {
+            "@id": "urn:uuid:d5dbf79c-729d-5525-a540-8ea1986b2b53",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "d5dbf79c-729d-5525-a540-8ea1986b2b53"
+        },
+        {
+            "@id": "urn:uuid:24cc48d2-efda-5c37-ac22-07489485456e",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "24cc48d2-efda-5c37-ac22-07489485456e"
+        }
+    ]
+}

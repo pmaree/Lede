@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "geojson": "https://purl.org/geojson/vocab#",
+        "Feature": "geojson:Feature",
+        "FeatureCollection": "geojson:FeatureCollection",
+        "GeometryCollection": "geojson:GeometryCollection",
+        "LineString": "geojson:LineString",
+        "MultiLineString": "geojson:MultiLineString",
+        "MultiPoint": "geojson:MultiPoint",
+        "MultiPolygon": "geojson:MultiPolygon",
+        "Point": "geojson:Point",
+        "Polygon": "geojson:Polygon",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
+        "features": {
+            "@container": "@set",
+            "@id": "geojson:features"
+        },
+        "geometry": "geojson:geometry",
+        "properties": "geojson:properties",
+        "type": "@type",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:86e24c2f-7622-46ba-891c-df9ed5c79ece",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:06:13Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:06:13Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-NS6857_GL",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 NS6857 Geographical Location (GL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:06:13Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_GL"
+    },
+    "dcat:keyword": "GL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/CIM/Geographical/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:86e24c2f-7622-46ba-891c-df9ed5c79ece"
+        }
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:25da1cb5-c460-522d-8ca2-f9d6186cd92d",
+                "@type": "cim.Substation",
+                "cim:IdentifiedObject.name": "NS6857"
+            },
+            "geometry": {
+                "@id": "urn:uuid:85a7792b-9ae8-5514-b959-d76bfbf1aae5",
+                "type": "Point",
+                "coordinates": [
+                    9.660859107971191,
+                    59.1360969543457,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:8e49574d-b313-5e4b-90d1-e58875b3063d",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1075854"
+            },
+            "geometry": {
+                "@id": "urn:uuid:aacd91a7-b560-55ff-9c7c-d16d2c5798de",
+                "type": "Point",
+                "coordinates": [
+                    9.66073989868164,
+                    59.13610076904297,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:dc2b966b-3066-56ff-81f9-c570faca8eba",
+                "@type": "cim.PowerTransformer",
+                "cim:IdentifiedObject.name": "331550"
+            },
+            "geometry": {
+                "@id": "urn:uuid:a4c755d5-17c6-5503-96a1-c4bcbe8f5b3e",
+                "type": "Point",
+                "coordinates": [
+                    9.660859107971191,
+                    59.1360969543457,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

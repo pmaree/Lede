@@ -1,0 +1,1156 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "geojson": "https://purl.org/geojson/vocab#",
+        "Feature": "geojson:Feature",
+        "FeatureCollection": "geojson:FeatureCollection",
+        "GeometryCollection": "geojson:GeometryCollection",
+        "LineString": "geojson:LineString",
+        "MultiLineString": "geojson:MultiLineString",
+        "MultiPoint": "geojson:MultiPoint",
+        "MultiPolygon": "geojson:MultiPolygon",
+        "Point": "geojson:Point",
+        "Polygon": "geojson:Polygon",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
+        "features": {
+            "@container": "@set",
+            "@id": "geojson:features"
+        },
+        "geometry": "geojson:geometry",
+        "properties": "geojson:properties",
+        "type": "@type",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:6eee4744-9e59-4d04-a1dc-7fffc3bc9e9d",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:05:45Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:05:45Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-P 1452_GL",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 P 1452 Geographical Location (GL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:05:45Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_GL"
+    },
+    "dcat:keyword": "GL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/CIM/Geographical/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:6eee4744-9e59-4d04-a1dc-7fffc3bc9e9d"
+        }
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:1f769aeb-58b7-5e92-959a-a72f37512390",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x25"
+            },
+            "geometry": {
+                "@id": "urn:uuid:1ddb48ba-e893-50a1-a7de-bc4bc4f9242d",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.66218090057373,
+                        59.13581085205078,
+                        0.0
+                    ],
+                    [
+                        9.662593841552734,
+                        59.13561248779297,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:2bab5160-75eb-5c33-be0e-19b9f8fe51bc",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x25"
+            },
+            "geometry": {
+                "@id": "urn:uuid:98b70330-4562-5eb8-a1d2-cb561360b878",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.66218090057373,
+                        59.13581085205078,
+                        0.0
+                    ],
+                    [
+                        9.66228199005127,
+                        59.13603210449219,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:400f41e2-377b-525c-9cd1-aa78c973b71c",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK737195"
+            },
+            "geometry": {
+                "@id": "urn:uuid:bb764225-895b-59b4-a167-fb73662e3e3f",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661494255065918,
+                        59.13579559326172,
+                        0.0
+                    ],
+                    [
+                        9.66146469116211,
+                        59.135807037353516,
+                        0.0
+                    ],
+                    [
+                        9.661432266235352,
+                        59.13582992553711,
+                        0.0
+                    ],
+                    [
+                        9.661429405212402,
+                        59.1358528137207,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:48b28302-871c-5534-9df4-2bce2824bfd9",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK784666"
+            },
+            "geometry": {
+                "@id": "urn:uuid:1b9b762b-8bbe-5261-a88d-ea216591f11b",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.66228199005127,
+                        59.13603210449219,
+                        0.0
+                    ],
+                    [
+                        9.662229537963867,
+                        59.13603591918945,
+                        0.0
+                    ],
+                    [
+                        9.662163734436035,
+                        59.13602066040039,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:4ed7f488-7beb-5393-9bc5-8e17cc0bca7c",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x95"
+            },
+            "geometry": {
+                "@id": "urn:uuid:368680c9-d612-5f8b-96c1-f8305c3de920",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.6615571975708,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.66218090057373,
+                        59.13581085205078,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:5d396ff2-76ce-5a2c-9f68-c58a76b9af44",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK1026913"
+            },
+            "geometry": {
+                "@id": "urn:uuid:a3c0ac72-1861-58a9-b00b-9a2780fd63c7",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661865234375,
+                        59.136016845703125,
+                        0.0
+                    ],
+                    [
+                        9.661822319030762,
+                        59.136016845703125,
+                        0.0
+                    ],
+                    [
+                        9.661803245544434,
+                        59.13603210449219,
+                        0.0
+                    ],
+                    [
+                        9.661791801452637,
+                        59.136070251464844,
+                        0.0
+                    ],
+                    [
+                        9.66179084777832,
+                        59.13608169555664,
+                        0.0
+                    ],
+                    [
+                        9.661808013916016,
+                        59.1361198425293,
+                        0.0
+                    ],
+                    [
+                        9.661836624145508,
+                        59.13615036010742,
+                        0.0
+                    ],
+                    [
+                        9.661844253540039,
+                        59.13616180419922,
+                        0.0
+                    ],
+                    [
+                        9.661849021911621,
+                        59.13618087768555,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:5f21ef9c-b5b8-5e56-9c89-845576ba9898",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK737196"
+            },
+            "geometry": {
+                "@id": "urn:uuid:ec829145-8517-5648-9f85-de2af0a1f1e7",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661494255065918,
+                        59.13579559326172,
+                        0.0
+                    ],
+                    [
+                        9.661459922790527,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.661436080932617,
+                        59.135780334472656,
+                        0.0
+                    ],
+                    [
+                        9.66141128540039,
+                        59.13577651977539,
+                        0.0
+                    ],
+                    [
+                        9.661358833312988,
+                        59.13577651977539,
+                        0.0
+                    ],
+                    [
+                        9.66120719909668,
+                        59.13577651977539,
+                        0.0
+                    ],
+                    [
+                        9.661177635192871,
+                        59.135772705078125,
+                        0.0
+                    ],
+                    [
+                        9.661163330078125,
+                        59.1357536315918,
+                        0.0
+                    ],
+                    [
+                        9.661154747009277,
+                        59.13573455810547,
+                        0.0
+                    ],
+                    [
+                        9.6611328125,
+                        59.135711669921875,
+                        0.0
+                    ],
+                    [
+                        9.661120414733887,
+                        59.13569641113281,
+                        0.0
+                    ],
+                    [
+                        9.661128044128418,
+                        59.135684967041016,
+                        0.0
+                    ],
+                    [
+                        9.661171913146973,
+                        59.13566970825195,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:71ad055b-80b2-5cda-80b1-05a453da9d90",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK718462"
+            },
+            "geometry": {
+                "@id": "urn:uuid:495bb5da-9425-50f4-989c-54cf0433a789",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661113739013672,
+                        59.13581848144531,
+                        0.0
+                    ],
+                    [
+                        9.661128997802734,
+                        59.13581466674805,
+                        0.0
+                    ],
+                    [
+                        9.661141395568848,
+                        59.13580322265625,
+                        0.0
+                    ],
+                    [
+                        9.66114616394043,
+                        59.13579559326172,
+                        0.0
+                    ],
+                    [
+                        9.661142349243164,
+                        59.135780334472656,
+                        0.0
+                    ],
+                    [
+                        9.661148071289062,
+                        59.135780334472656,
+                        0.0
+                    ],
+                    [
+                        9.661199569702148,
+                        59.135780334472656,
+                        0.0
+                    ],
+                    [
+                        9.661232948303223,
+                        59.135780334472656,
+                        0.0
+                    ],
+                    [
+                        9.661396026611328,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.661446571350098,
+                        59.13578796386719,
+                        0.0
+                    ],
+                    [
+                        9.661494255065918,
+                        59.13579559326172,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:9822bd16-430f-55d3-ac57-ecac1d31bdfc",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x25"
+            },
+            "geometry": {
+                "@id": "urn:uuid:1c0870dd-177c-5d1b-84d2-f212fa49e13c",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.6615571975708,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.661581039428711,
+                        59.13565444946289,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:a3031901-a57f-518c-873e-8f93dff726eb",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x25"
+            },
+            "geometry": {
+                "@id": "urn:uuid:7e142552-540a-52cc-a069-5fe3b84aff8c",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.66218090057373,
+                        59.13581085205078,
+                        0.0
+                    ],
+                    [
+                        9.66199779510498,
+                        59.13544845581055,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:a951c3df-93f2-5263-b333-55ac511b60af",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK1026912"
+            },
+            "geometry": {
+                "@id": "urn:uuid:aa787cce-a12d-503b-92a7-ebabe7cd5f3e",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661494255065918,
+                        59.13579559326172,
+                        0.0
+                    ],
+                    [
+                        9.661545753479004,
+                        59.13577651977539,
+                        0.0
+                    ],
+                    [
+                        9.6618070602417,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.661904335021973,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.661928176879883,
+                        59.13579177856445,
+                        0.0
+                    ],
+                    [
+                        9.661924362182617,
+                        59.13581466674805,
+                        0.0
+                    ],
+                    [
+                        9.661855697631836,
+                        59.135929107666016,
+                        0.0
+                    ],
+                    [
+                        9.661826133728027,
+                        59.13597106933594,
+                        0.0
+                    ],
+                    [
+                        9.661822319030762,
+                        59.135986328125,
+                        0.0
+                    ],
+                    [
+                        9.661832809448242,
+                        59.13600540161133,
+                        0.0
+                    ],
+                    [
+                        9.661865234375,
+                        59.136016845703125,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:ca9c63e3-b85c-554a-9fcc-860c1ab66f03",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x25"
+            },
+            "geometry": {
+                "@id": "urn:uuid:b258df16-d685-55bb-8eba-ca50d3d4e642",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.66218090057373,
+                        59.13581085205078,
+                        0.0
+                    ],
+                    [
+                        9.662230491638184,
+                        59.13568878173828,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:d2fea619-7157-560a-9800-13cf3ebed7f0",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK53183"
+            },
+            "geometry": {
+                "@id": "urn:uuid:c6cc7a12-97e3-57a0-ace7-f1f5edf378b9",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661111831665039,
+                        59.13590621948242,
+                        0.0
+                    ],
+                    [
+                        9.661140441894531,
+                        59.13593292236328,
+                        0.0
+                    ],
+                    [
+                        9.661152839660645,
+                        59.135948181152344,
+                        0.0
+                    ],
+                    [
+                        9.661175727844238,
+                        59.13596725463867,
+                        0.0
+                    ],
+                    [
+                        9.661182403564453,
+                        59.1359748840332,
+                        0.0
+                    ],
+                    [
+                        9.661182403564453,
+                        59.13599395751953,
+                        0.0
+                    ],
+                    [
+                        9.661187171936035,
+                        59.1359977722168,
+                        0.0
+                    ],
+                    [
+                        9.661192893981934,
+                        59.13602066040039,
+                        0.0
+                    ],
+                    [
+                        9.661199569702148,
+                        59.13602828979492,
+                        0.0
+                    ],
+                    [
+                        9.661210060119629,
+                        59.13602066040039,
+                        0.0
+                    ],
+                    [
+                        9.661189079284668,
+                        59.13601303100586,
+                        0.0
+                    ],
+                    [
+                        9.661170959472656,
+                        59.13600540161133,
+                        0.0
+                    ],
+                    [
+                        9.661080360412598,
+                        59.135955810546875,
+                        0.0
+                    ],
+                    [
+                        9.661041259765625,
+                        59.13593673706055,
+                        0.0
+                    ],
+                    [
+                        9.660999298095703,
+                        59.13591766357422,
+                        0.0
+                    ],
+                    [
+                        9.660950660705566,
+                        59.13588333129883,
+                        0.0
+                    ],
+                    [
+                        9.660926818847656,
+                        59.135868072509766,
+                        0.0
+                    ],
+                    [
+                        9.660866737365723,
+                        59.13582992553711,
+                        0.0
+                    ],
+                    [
+                        9.660799980163574,
+                        59.13578796386719,
+                        0.0
+                    ],
+                    [
+                        9.660731315612793,
+                        59.135746002197266,
+                        0.0
+                    ],
+                    [
+                        9.660673141479492,
+                        59.13570785522461,
+                        0.0
+                    ],
+                    [
+                        9.660648345947266,
+                        59.13568878173828,
+                        0.0
+                    ],
+                    [
+                        9.660638809204102,
+                        59.13568115234375,
+                        0.0
+                    ],
+                    [
+                        9.660621643066406,
+                        59.13566970825195,
+                        0.0
+                    ],
+                    [
+                        9.660572052001953,
+                        59.13562774658203,
+                        0.0
+                    ],
+                    [
+                        9.660558700561523,
+                        59.1356201171875,
+                        0.0
+                    ],
+                    [
+                        9.660351753234863,
+                        59.135498046875,
+                        0.0
+                    ],
+                    [
+                        9.66018295288086,
+                        59.135372161865234,
+                        0.0
+                    ],
+                    [
+                        9.660033226013184,
+                        59.135257720947266,
+                        0.0
+                    ],
+                    [
+                        9.659799575805664,
+                        59.13508987426758,
+                        0.0
+                    ],
+                    [
+                        9.659688949584961,
+                        59.135009765625,
+                        0.0
+                    ],
+                    [
+                        9.65955924987793,
+                        59.134925842285156,
+                        0.0
+                    ],
+                    [
+                        9.659390449523926,
+                        59.13482666015625,
+                        0.0
+                    ],
+                    [
+                        9.65916919708252,
+                        59.13471221923828,
+                        0.0
+                    ],
+                    [
+                        9.658793449401855,
+                        59.134552001953125,
+                        0.0
+                    ],
+                    [
+                        9.658531188964844,
+                        59.13445281982422,
+                        0.0
+                    ],
+                    [
+                        9.658570289611816,
+                        59.13441467285156,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:dc3d0bc0-5f0a-5f96-b30f-0d13e0ba1b10",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK13776"
+            },
+            "geometry": {
+                "@id": "urn:uuid:44601764-9444-595b-9dcf-5760bbc4bda6",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.660567283630371,
+                        59.13551330566406,
+                        0.0
+                    ],
+                    [
+                        9.660589218139648,
+                        59.13552474975586,
+                        0.0
+                    ],
+                    [
+                        9.660698890686035,
+                        59.135536193847656,
+                        0.0
+                    ],
+                    [
+                        9.661018371582031,
+                        59.13578796386719,
+                        0.0
+                    ],
+                    [
+                        9.66110610961914,
+                        59.13578414916992,
+                        0.0
+                    ],
+                    [
+                        9.661494255065918,
+                        59.13579559326172,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:dea41add-811b-5f57-90ee-720b97c43541",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "Ex_1x3x25"
+            },
+            "geometry": {
+                "@id": "urn:uuid:c806c737-0f64-5925-bc34-0f15f4d438cc",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.66228199005127,
+                        59.13603210449219,
+                        0.0
+                    ],
+                    [
+                        9.66208267211914,
+                        59.13615417480469,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:ea8d3618-fe90-520e-9580-3d68af20f081",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK718461"
+            },
+            "geometry": {
+                "@id": "urn:uuid:79bd8fb1-d4ac-51cf-aee2-41c41029438f",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661113739013672,
+                        59.13581848144531,
+                        0.0
+                    ],
+                    [
+                        9.66118049621582,
+                        59.135826110839844,
+                        0.0
+                    ],
+                    [
+                        9.661161422729492,
+                        59.1358528137207,
+                        0.0
+                    ],
+                    [
+                        9.661134719848633,
+                        59.13587188720703,
+                        0.0
+                    ],
+                    [
+                        9.66110897064209,
+                        59.135902404785156,
+                        0.0
+                    ],
+                    [
+                        9.661111831665039,
+                        59.13590621948242,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:f3f9bace-d8cb-5f86-96a2-d44dd3345c42",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK728338"
+            },
+            "geometry": {
+                "@id": "urn:uuid:f699e156-ac3c-5787-8c33-7a2395af2a45",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.661494255065918,
+                        59.13579559326172,
+                        0.0
+                    ],
+                    [
+                        9.661494255065918,
+                        59.13580322265625,
+                        0.0
+                    ],
+                    [
+                        9.661506652832031,
+                        59.13581085205078,
+                        0.0
+                    ],
+                    [
+                        9.661528587341309,
+                        59.13581085205078,
+                        0.0
+                    ],
+                    [
+                        9.661540985107422,
+                        59.135799407958984,
+                        0.0
+                    ],
+                    [
+                        9.6615571975708,
+                        59.13578414916992,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:1b923411-28e5-5c10-88c1-d569e544bf0f",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021032"
+            },
+            "geometry": {
+                "@id": "urn:uuid:95c061eb-ff07-5b60-8f72-8e5e99fbec2d",
+                "type": "Point",
+                "coordinates": [
+                    9.662593841552734,
+                    59.13561248779297,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:1d59767a-e1e5-5e82-b1a1-123d021fad05",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021024"
+            },
+            "geometry": {
+                "@id": "urn:uuid:f653998d-cd52-50c0-92a7-948bd2fdc584",
+                "type": "Point",
+                "coordinates": [
+                    9.661429405212402,
+                    59.1358528137207,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:41da64be-d0b2-5bf0-88ee-df9a4b0f9530",
+                "@type": "cim.Substation",
+                "cim:IdentifiedObject.name": "P 1452"
+            },
+            "geometry": {
+                "@id": "urn:uuid:b0935733-9d14-5aee-a82b-fc20a277fa91",
+                "type": "Point",
+                "coordinates": [
+                    9.661113739013672,
+                    59.13581848144531,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:73de710f-fc3c-5812-8c68-c53076b4c418",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1057694"
+            },
+            "geometry": {
+                "@id": "urn:uuid:d81c80db-5765-5dbb-9a4e-83d0bdbf2a24",
+                "type": "Point",
+                "coordinates": [
+                    9.660567283630371,
+                    59.13551330566406,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:7a75660f-f38a-5715-8d15-555e505bda96",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021025"
+            },
+            "geometry": {
+                "@id": "urn:uuid:a5f1656a-e8ef-5da4-b041-6fec1f7c0962",
+                "type": "Point",
+                "coordinates": [
+                    9.661581039428711,
+                    59.13565444946289,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:8083ac1f-c896-5ee4-a310-99cc6a776be2",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021029"
+            },
+            "geometry": {
+                "@id": "urn:uuid:bb69573d-9452-5c0c-b8f5-ec3c42b3eff2",
+                "type": "Point",
+                "coordinates": [
+                    9.662230491638184,
+                    59.13568878173828,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:89a58044-bb2e-5c28-995b-02c0b62f2b60",
+                "@type": "cim.PowerTransformer",
+                "cim:IdentifiedObject.name": "86.1.5325"
+            },
+            "geometry": {
+                "@id": "urn:uuid:ab5586ff-1b6c-517f-b31c-47f4fc71c38f",
+                "type": "Point",
+                "coordinates": [
+                    9.661113739013672,
+                    59.13581848144531,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:8f052865-edaf-5322-8884-f7098a418dc1",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021023"
+            },
+            "geometry": {
+                "@id": "urn:uuid:d7b152b6-94f6-5718-a00a-1d7c2a09a536",
+                "type": "Point",
+                "coordinates": [
+                    9.661171913146973,
+                    59.13566970825195,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:b0638508-9de8-52e9-a1b3-7c532ef9099c",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021027"
+            },
+            "geometry": {
+                "@id": "urn:uuid:8b085ee7-8c78-55dc-8ae4-5cda86122b50",
+                "type": "Point",
+                "coordinates": [
+                    9.66199779510498,
+                    59.13544845581055,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:bdcb3f80-77ce-5138-a71e-71c1113ca64f",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021026"
+            },
+            "geometry": {
+                "@id": "urn:uuid:e89aab55-3d83-5db4-b655-dc2c932fad7e",
+                "type": "Point",
+                "coordinates": [
+                    9.66208267211914,
+                    59.13615417480469,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:c7555a75-8ec8-58de-9453-56af2511fe3e",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1076081"
+            },
+            "geometry": {
+                "@id": "urn:uuid:056afdb2-bba8-57a0-9523-46cefe11cc68",
+                "type": "Point",
+                "coordinates": [
+                    9.658570289611816,
+                    59.13441467285156,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:d2a11dbc-888e-54e5-8956-1b5efdb5e42d",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1021028"
+            },
+            "geometry": {
+                "@id": "urn:uuid:63dcab2c-960f-594f-a5d7-35eab146ff33",
+                "type": "Point",
+                "coordinates": [
+                    9.662163734436035,
+                    59.13602066040039,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:f0b5bf37-23ec-57b0-92a0-adf8d648cd8b",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1052752"
+            },
+            "geometry": {
+                "@id": "urn:uuid:2aa57180-5fd4-5e80-bc09-a98e198bccea",
+                "type": "Point",
+                "coordinates": [
+                    9.661849021911621,
+                    59.13618087768555,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

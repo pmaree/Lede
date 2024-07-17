@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:8257608d-65fe-42ff-bc07-dfbd98ef4e8d",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:05:56Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:05:56Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-P 516_EQ",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 P 516 Core Equipment (EQ) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:05:56Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_EQ"
+    },
+    "dcat:keyword": "EQ",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:e86e9007-cb20-59fe-88fe-1e701151f76c",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "e86e9007-cb20-59fe-88fe-1e701151f76c",
+            "cim:IdentifiedObject.description": "11/230, 410-05526, in P 516",
+            "cim:IdentifiedObject.name": "410-05526",
+            "cim:Equipment.EquipmentContainer": {
+                "@id": "urn:uuid:a804edfa-d468-5ecd-96b8-688a6ca15f51"
+            }
+        },
+        {
+            "@id": "urn:uuid:823c7c61-efbe-5259-b480-bb128ffb9340",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "823c7c61-efbe-5259-b480-bb128ffb9340",
+            "cim:TransformerEnd.endNumber": 1,
+            "cim:PowerTransformerEnd.ratedS": 1000000.0,
+            "cim:PowerTransformerEnd.ratedU": 10000.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:4bba2f17-7e49-5fdd-8f21-74b97127b753"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:e86e9007-cb20-59fe-88fe-1e701151f76c"
+            }
+        },
+        {
+            "@id": "urn:uuid:36dfa76e-7f33-52f5-9522-00eb88db840d",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "36dfa76e-7f33-52f5-9522-00eb88db840d",
+            "cim:TransformerEnd.endNumber": 2,
+            "cim:PowerTransformerEnd.ratedS": 1000000.0,
+            "cim:PowerTransformerEnd.ratedU": 240.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:f9b96b4f-2c8a-5b61-acb7-86179c7b588f"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:e86e9007-cb20-59fe-88fe-1e701151f76c"
+            }
+        },
+        {
+            "@id": "urn:uuid:a804edfa-d468-5ecd-96b8-688a6ca15f51",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "a804edfa-d468-5ecd-96b8-688a6ca15f51",
+            "cim:IdentifiedObject.description": "ISOLA 4, Prestemoen 9",
+            "cim:IdentifiedObject.name": "P 516"
+        },
+        {
+            "@id": "urn:uuid:f9b96b4f-2c8a-5b61-acb7-86179c7b588f",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "f9b96b4f-2c8a-5b61-acb7-86179c7b588f",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:e86e9007-cb20-59fe-88fe-1e701151f76c"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:4f47b367-17d3-5cc9-858a-a3861b92ca3f"
+            }
+        },
+        {
+            "@id": "urn:uuid:4bba2f17-7e49-5fdd-8f21-74b97127b753",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "4bba2f17-7e49-5fdd-8f21-74b97127b753",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:e86e9007-cb20-59fe-88fe-1e701151f76c"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:fb3eae0d-8942-5909-b098-66a9099538d3"
+            }
+        },
+        {
+            "@id": "urn:uuid:4f47b367-17d3-5cc9-858a-a3861b92ca3f",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "4f47b367-17d3-5cc9-858a-a3861b92ca3f"
+        },
+        {
+            "@id": "urn:uuid:fb3eae0d-8942-5909-b098-66a9099538d3",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "fb3eae0d-8942-5909-b098-66a9099538d3"
+        }
+    ]
+}

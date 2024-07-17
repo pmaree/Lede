@@ -1,0 +1,165 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:7637e04a-1490-4582-b2dc-345aa391a70e",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:06:13Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:06:13Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-NS6857_EQ",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 NS6857 Core Equipment (EQ) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:06:13Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_EQ"
+    },
+    "dcat:keyword": "EQ",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:8e49574d-b313-5e4b-90d1-e58875b3063d",
+            "@type": "cim:ConformLoad",
+            "cim:IdentifiedObject.mRID": "8e49574d-b313-5e4b-90d1-e58875b3063d",
+            "cim:IdentifiedObject.name": "1075854"
+        },
+        {
+            "@id": "urn:uuid:dc2b966b-3066-56ff-81f9-c570faca8eba",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "dc2b966b-3066-56ff-81f9-c570faca8eba",
+            "cim:IdentifiedObject.description": "11/22/400, 331550, in NS6857",
+            "cim:IdentifiedObject.name": "331550",
+            "cim:Equipment.EquipmentContainer": {
+                "@id": "urn:uuid:25da1cb5-c460-522d-8ca2-f9d6186cd92d"
+            }
+        },
+        {
+            "@id": "urn:uuid:ac92b5ec-250b-5d2a-b47c-834285b44a3c",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "ac92b5ec-250b-5d2a-b47c-834285b44a3c",
+            "cim:TransformerEnd.endNumber": 1,
+            "cim:PowerTransformerEnd.ratedS": 500000.0,
+            "cim:PowerTransformerEnd.ratedU": 11000.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:70bb836b-7002-56d0-8c77-cdf23a08a4ef"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:dc2b966b-3066-56ff-81f9-c570faca8eba"
+            }
+        },
+        {
+            "@id": "urn:uuid:c491e7a5-aca0-5e51-bf93-62222bc5da47",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "c491e7a5-aca0-5e51-bf93-62222bc5da47",
+            "cim:TransformerEnd.endNumber": 2,
+            "cim:PowerTransformerEnd.ratedS": 500000.0,
+            "cim:PowerTransformerEnd.ratedU": 415.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:2fd9946c-46c0-5655-a402-34e5b8b6591f"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:dc2b966b-3066-56ff-81f9-c570faca8eba"
+            }
+        },
+        {
+            "@id": "urn:uuid:25da1cb5-c460-522d-8ca2-f9d6186cd92d",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "25da1cb5-c460-522d-8ca2-f9d6186cd92d",
+            "cim:IdentifiedObject.description": "Porsgrunnstunellen øst",
+            "cim:IdentifiedObject.name": "NS6857"
+        },
+        {
+            "@id": "urn:uuid:d369faa7-edc0-5397-9350-1323a0d6b09b",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "d369faa7-edc0-5397-9350-1323a0d6b09b",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:8e49574d-b313-5e4b-90d1-e58875b3063d"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:c398d04d-f5b9-5954-b1ad-4692c776a6b6"
+            }
+        },
+        {
+            "@id": "urn:uuid:2fd9946c-46c0-5655-a402-34e5b8b6591f",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "2fd9946c-46c0-5655-a402-34e5b8b6591f",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:dc2b966b-3066-56ff-81f9-c570faca8eba"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:c398d04d-f5b9-5954-b1ad-4692c776a6b6"
+            }
+        },
+        {
+            "@id": "urn:uuid:70bb836b-7002-56d0-8c77-cdf23a08a4ef",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "70bb836b-7002-56d0-8c77-cdf23a08a4ef",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:dc2b966b-3066-56ff-81f9-c570faca8eba"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:f6fcb73a-5590-5bd0-a9cd-58d0eed4fc46"
+            }
+        },
+        {
+            "@id": "urn:uuid:c398d04d-f5b9-5954-b1ad-4692c776a6b6",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "c398d04d-f5b9-5954-b1ad-4692c776a6b6"
+        },
+        {
+            "@id": "urn:uuid:f6fcb73a-5590-5bd0-a9cd-58d0eed4fc46",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "f6fcb73a-5590-5bd0-a9cd-58d0eed4fc46"
+        }
+    ]
+}

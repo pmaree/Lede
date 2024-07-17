@@ -1,0 +1,282 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "geojson": "https://purl.org/geojson/vocab#",
+        "Feature": "geojson:Feature",
+        "FeatureCollection": "geojson:FeatureCollection",
+        "GeometryCollection": "geojson:GeometryCollection",
+        "LineString": "geojson:LineString",
+        "MultiLineString": "geojson:MultiLineString",
+        "MultiPoint": "geojson:MultiPoint",
+        "MultiPolygon": "geojson:MultiPolygon",
+        "Point": "geojson:Point",
+        "Polygon": "geojson:Polygon",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
+        "features": {
+            "@container": "@set",
+            "@id": "geojson:features"
+        },
+        "geometry": "geojson:geometry",
+        "properties": "geojson:properties",
+        "type": "@type",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:14d07d21-226c-480d-8659-d588d2f8314f",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:06:59Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:06:59Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-NS7280_GL",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 NS7280 Geographical Location (GL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:06:59Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_GL"
+    },
+    "dcat:keyword": "GL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/CIM/Geographical/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:14d07d21-226c-480d-8659-d588d2f8314f"
+        }
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:e4555134-2294-55d9-a26c-43c39d2d1f79",
+                "@type": "cim.ACLineSegment",
+                "cim:IdentifiedObject.name": "LK64448"
+            },
+            "geometry": {
+                "@id": "urn:uuid:07c52d8c-4b53-536e-8565-ddff8e4ab938",
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        9.701452255249023,
+                        59.119510650634766,
+                        0.0
+                    ],
+                    [
+                        9.70145034790039,
+                        59.1195182800293,
+                        0.0
+                    ],
+                    [
+                        9.701422691345215,
+                        59.11952590942383,
+                        0.0
+                    ],
+                    [
+                        9.701379776000977,
+                        59.11953353881836,
+                        0.0
+                    ],
+                    [
+                        9.701321601867676,
+                        59.119537353515625,
+                        0.0
+                    ],
+                    [
+                        9.701290130615234,
+                        59.11953353881836,
+                        0.0
+                    ],
+                    [
+                        9.701196670532227,
+                        59.1194953918457,
+                        0.0
+                    ],
+                    [
+                        9.701090812683105,
+                        59.119468688964844,
+                        0.0
+                    ],
+                    [
+                        9.701006889343262,
+                        59.11946487426758,
+                        0.0
+                    ],
+                    [
+                        9.700865745544434,
+                        59.1194953918457,
+                        0.0
+                    ],
+                    [
+                        9.700712203979492,
+                        59.11952209472656,
+                        0.0
+                    ],
+                    [
+                        9.700654983520508,
+                        59.11952209472656,
+                        0.0
+                    ],
+                    [
+                        9.700531959533691,
+                        59.11951446533203,
+                        0.0
+                    ],
+                    [
+                        9.700481414794922,
+                        59.1195182800293,
+                        0.0
+                    ],
+                    [
+                        9.700334548950195,
+                        59.119564056396484,
+                        0.0
+                    ],
+                    [
+                        9.700197219848633,
+                        59.11960983276367,
+                        0.0
+                    ],
+                    [
+                        9.700032234191895,
+                        59.11967468261719,
+                        0.0
+                    ],
+                    [
+                        9.69990348815918,
+                        59.119720458984375,
+                        0.0
+                    ],
+                    [
+                        9.699869155883789,
+                        59.119720458984375,
+                        0.0
+                    ],
+                    [
+                        9.699784278869629,
+                        59.119720458984375,
+                        0.0
+                    ],
+                    [
+                        9.69970703125,
+                        59.11971664428711,
+                        0.0
+                    ],
+                    [
+                        9.699677467346191,
+                        59.11970901489258,
+                        0.0
+                    ],
+                    [
+                        9.699677467346191,
+                        59.11968994140625,
+                        0.0
+                    ],
+                    [
+                        9.699666976928711,
+                        59.11968994140625,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:04372a8e-87e4-5144-be5a-3e3d74386288",
+                "@type": "cim.ConformLoad",
+                "cim:IdentifiedObject.name": "1089072"
+            },
+            "geometry": {
+                "@id": "urn:uuid:22c331f5-7087-5de2-b207-d43067fe2b8a",
+                "type": "Point",
+                "coordinates": [
+                    9.701452255249023,
+                    59.119510650634766,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:42ac06ac-fedf-5405-b26d-4f3125a95e4d",
+                "@type": "cim.PowerTransformer",
+                "cim:IdentifiedObject.name": "230542"
+            },
+            "geometry": {
+                "@id": "urn:uuid:6d496e26-d19d-5866-a1ac-e30a4e23c6c2",
+                "type": "Point",
+                "coordinates": [
+                    9.699666976928711,
+                    59.11968994140625,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "urn:uuid:4d7282a9-e4c1-5162-925d-0a2da416a8eb",
+                "@type": "cim.Substation",
+                "cim:IdentifiedObject.name": "NS7280"
+            },
+            "geometry": {
+                "@id": "urn:uuid:0d21e610-09a6-52b1-8e6f-20e85da9fd55",
+                "type": "Point",
+                "coordinates": [
+                    9.699666976928711,
+                    59.11968994140625,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

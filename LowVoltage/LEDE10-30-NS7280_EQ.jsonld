@@ -1,0 +1,237 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:59f779e5-7ff4-4997-9656-df11cfc256ff",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:06:59Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:06:59Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-NS7280_EQ",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 NS7280 Core Equipment (EQ) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:06:59Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_EQ"
+    },
+    "dcat:keyword": "EQ",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:e4555134-2294-55d9-a26c-43c39d2d1f79",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "e4555134-2294-55d9-a26c-43c39d2d1f79",
+            "cim:IdentifiedObject.description": "None",
+            "cim:IdentifiedObject.name": "LK64448",
+            "cim:Conductor.length": 116.32448709776502,
+            "cim:ACLineSegment.r": 0.014540560887220628,
+            "cim:ACLineSegment.x": 0.009422283482652888
+        },
+        {
+            "@id": "urn:uuid:8ef9d6a4-5c5b-55eb-94c4-e3eb6f04ac51",
+            "@type": "cim:Fuse",
+            "cim:IdentifiedObject.mRID": "8ef9d6a4-5c5b-55eb-94c4-e3eb6f04ac51",
+            "cim:IdentifiedObject.description": "Fuse 1 in NS7280 - tavle 1 with direction towards Schøningsveg 20",
+            "cim:IdentifiedObject.name": "1",
+            "cim:Switch.normalOpen": false
+        },
+        {
+            "@id": "urn:uuid:04372a8e-87e4-5144-be5a-3e3d74386288",
+            "@type": "cim:ConformLoad",
+            "cim:IdentifiedObject.mRID": "04372a8e-87e4-5144-be5a-3e3d74386288",
+            "cim:IdentifiedObject.name": "1089072"
+        },
+        {
+            "@id": "urn:uuid:42ac06ac-fedf-5405-b26d-4f3125a95e4d",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "42ac06ac-fedf-5405-b26d-4f3125a95e4d",
+            "cim:IdentifiedObject.description": "11/230/400, 230542, in NS7280",
+            "cim:IdentifiedObject.name": "230542",
+            "cim:Equipment.EquipmentContainer": {
+                "@id": "urn:uuid:4d7282a9-e4c1-5162-925d-0a2da416a8eb"
+            }
+        },
+        {
+            "@id": "urn:uuid:59628d83-c792-5c8d-80f7-196d6006abff",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "59628d83-c792-5c8d-80f7-196d6006abff",
+            "cim:TransformerEnd.endNumber": 1,
+            "cim:PowerTransformerEnd.ratedS": 800000.0,
+            "cim:PowerTransformerEnd.ratedU": 11000.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:36dd5d32-499c-5e1b-b958-66405fef1b1f"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:42ac06ac-fedf-5405-b26d-4f3125a95e4d"
+            }
+        },
+        {
+            "@id": "urn:uuid:4bc5e5a3-8cf6-5d45-be7c-a4677e17efd2",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "4bc5e5a3-8cf6-5d45-be7c-a4677e17efd2",
+            "cim:TransformerEnd.endNumber": 2,
+            "cim:PowerTransformerEnd.ratedS": 800000.0,
+            "cim:PowerTransformerEnd.ratedU": 415.0,
+            "cim:TransformerEnd.Terminal": {
+                "@id": "urn:uuid:610b5fd1-d990-57e6-9149-7ea17a8b996d"
+            },
+            "cim:PowerTransformerEnd.PowerTransformer": {
+                "@id": "urn:uuid:42ac06ac-fedf-5405-b26d-4f3125a95e4d"
+            }
+        },
+        {
+            "@id": "urn:uuid:4d7282a9-e4c1-5162-925d-0a2da416a8eb",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "4d7282a9-e4c1-5162-925d-0a2da416a8eb",
+            "cim:IdentifiedObject.description": "Schøningsveg 18",
+            "cim:IdentifiedObject.name": "NS7280"
+        },
+        {
+            "@id": "urn:uuid:62780cc1-2e7b-5724-96c3-80e0f0a70a6c",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "62780cc1-2e7b-5724-96c3-80e0f0a70a6c",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:e4555134-2294-55d9-a26c-43c39d2d1f79"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:92d75cea-2411-5c43-90ed-bcba6dc5cdf7"
+            }
+        },
+        {
+            "@id": "urn:uuid:11cb1667-5032-5f03-ba64-3c3e2ec88b80",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "11cb1667-5032-5f03-ba64-3c3e2ec88b80",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:e4555134-2294-55d9-a26c-43c39d2d1f79"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:2d8d5e56-dd2f-50ea-bc3c-fb2bf9124d9c"
+            }
+        },
+        {
+            "@id": "urn:uuid:37658f95-fbc5-5a43-8b15-711af7c21865",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "37658f95-fbc5-5a43-8b15-711af7c21865",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:04372a8e-87e4-5144-be5a-3e3d74386288"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:92d75cea-2411-5c43-90ed-bcba6dc5cdf7"
+            }
+        },
+        {
+            "@id": "urn:uuid:610b5fd1-d990-57e6-9149-7ea17a8b996d",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "610b5fd1-d990-57e6-9149-7ea17a8b996d",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:42ac06ac-fedf-5405-b26d-4f3125a95e4d"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:b17bfc9a-09ba-5f7f-9fbd-df00bd9f5ea2"
+            }
+        },
+        {
+            "@id": "urn:uuid:36dd5d32-499c-5e1b-b958-66405fef1b1f",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "36dd5d32-499c-5e1b-b958-66405fef1b1f",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:42ac06ac-fedf-5405-b26d-4f3125a95e4d"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:42c378d0-a238-5086-9655-75ff36fc4509"
+            }
+        },
+        {
+            "@id": "urn:uuid:f40c16c2-5ab0-5841-96c1-394bad8b64e1",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "f40c16c2-5ab0-5841-96c1-394bad8b64e1",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:8ef9d6a4-5c5b-55eb-94c4-e3eb6f04ac51"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:b17bfc9a-09ba-5f7f-9fbd-df00bd9f5ea2"
+            }
+        },
+        {
+            "@id": "urn:uuid:66e0cefc-9a41-5ac5-8b86-cb3708e285ce",
+            "@type": "cim:Terminal",
+            "cim:IdentifiedObject.mRID": "66e0cefc-9a41-5ac5-8b86-cb3708e285ce",
+            "cim:Terminal.ConductingEquipment": {
+                "@id": "urn:uuid:8ef9d6a4-5c5b-55eb-94c4-e3eb6f04ac51"
+            },
+            "cim:Terminal.ConnectivityNode": {
+                "@id": "urn:uuid:2d8d5e56-dd2f-50ea-bc3c-fb2bf9124d9c"
+            }
+        },
+        {
+            "@id": "urn:uuid:2d8d5e56-dd2f-50ea-bc3c-fb2bf9124d9c",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "2d8d5e56-dd2f-50ea-bc3c-fb2bf9124d9c"
+        },
+        {
+            "@id": "urn:uuid:92d75cea-2411-5c43-90ed-bcba6dc5cdf7",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "92d75cea-2411-5c43-90ed-bcba6dc5cdf7"
+        },
+        {
+            "@id": "urn:uuid:b17bfc9a-09ba-5f7f-9fbd-df00bd9f5ea2",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "b17bfc9a-09ba-5f7f-9fbd-df00bd9f5ea2"
+        },
+        {
+            "@id": "urn:uuid:42c378d0-a238-5086-9655-75ff36fc4509",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "42c378d0-a238-5086-9655-75ff36fc4509"
+        }
+    ]
+}

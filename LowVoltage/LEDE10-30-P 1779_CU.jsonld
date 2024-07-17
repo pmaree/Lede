@@ -1,0 +1,638 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:5c216b7a-8f95-4102-b0b3-6a749c3c3072",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-06-28T15:04:54Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-06-28T15:04:54Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "LEDE10-30-P 1779_CU",
+    "dcterms:description": [
+        {
+            "@value": "LEDE10 CGMES v3.0 P 1779 Customer (CU) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:801c82bf-9ae1-4a72-944f-3f3aa67dd305",
+        "dcterms:title": "Lede AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-06-28T15:04:54Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_CU"
+    },
+    "dcat:keyword": "CU",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/Customers/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:23aa3e2f-e67e-4962-9778-1a3100af27a4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:55c3a57d-9bd2-5145-8105-fa062c6c1de5",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "55c3a57d-9bd2-5145-8105-fa062c6c1de5",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:1e9969cd-70e4-55d5-967c-c6c1b3b501fc",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "1e9969cd-70e4-55d5-967c-c6c1b3b501fc",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:fb0adb41-e5cf-5481-b55d-bcf7917decfe",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "fb0adb41-e5cf-5481-b55d-bcf7917decfe",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f6a7d332-ea64-52bb-bb18-5aeb20e67568",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f6a7d332-ea64-52bb-bb18-5aeb20e67568",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:b709cba0-0b05-52a9-9920-4f21703bbb47",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "b709cba0-0b05-52a9-9920-4f21703bbb47",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f0baa336-e5c0-5292-b765-5d80ad53fcaa",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f0baa336-e5c0-5292-b765-5d80ad53fcaa",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f3519d65-843d-5a19-bca5-bfb2a731483f",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f3519d65-843d-5a19-bca5-bfb2a731483f",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:77af0b5d-4b1b-5f95-b431-591ee52a2e74",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "77af0b5d-4b1b-5f95-b431-591ee52a2e74",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:d842c7f9-00e8-5a1f-a3a8-cc3c69df32af",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "d842c7f9-00e8-5a1f-a3a8-cc3c69df32af",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:4a5e5f4b-5b3f-5fa7-bb86-54f6ca36c0e0",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "4a5e5f4b-5b3f-5fa7-bb86-54f6ca36c0e0",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:a1d7f8f0-5d92-53c1-9e09-fe86ccc07294",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "a1d7f8f0-5d92-53c1-9e09-fe86ccc07294",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:c86770e9-75ec-5e32-8da1-a869ccb99335",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c86770e9-75ec-5e32-8da1-a869ccb99335",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:20a49f10-e122-50a7-9911-472f66d45122",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "20a49f10-e122-50a7-9911-472f66d45122",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:d49c9d47-ca05-5636-8cc3-67f7ce12be1f",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "d49c9d47-ca05-5636-8cc3-67f7ce12be1f",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:5f75b779-6728-5100-a744-29397763cf4c",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "5f75b779-6728-5100-a744-29397763cf4c",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:7e220955-38e0-5013-b86f-31c0a0709d55",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "7e220955-38e0-5013-b86f-31c0a0709d55",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:89e1718b-898a-5196-8aa1-baf05cd5e37c",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "89e1718b-898a-5196-8aa1-baf05cd5e37c",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:5174f987-395a-52eb-af46-32607fc4ff38",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "5174f987-395a-52eb-af46-32607fc4ff38",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:dd9b8420-4207-56e7-bc6a-e59267bb6b30",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "dd9b8420-4207-56e7-bc6a-e59267bb6b30",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:691c23aa-3d4b-5e72-9725-3957be7323f9",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "691c23aa-3d4b-5e72-9725-3957be7323f9",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:23645c2f-d058-5b83-929c-ebb77217a886",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "23645c2f-d058-5b83-929c-ebb77217a886",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:b9147f50-401f-56a1-9bc7-ce889b5898c1",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "b9147f50-401f-56a1-9bc7-ce889b5898c1",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f14de0af-28d8-5714-92a8-768575eb4891",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f14de0af-28d8-5714-92a8-768575eb4891",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:4bb139b4-c0ec-5daa-8a49-821bb37f0f7a",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "4bb139b4-c0ec-5daa-8a49-821bb37f0f7a",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:d9220ebf-304a-5f26-9006-1c71036ce2c1",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "d9220ebf-304a-5f26-9006-1c71036ce2c1",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:0534f6fd-bb19-5e97-9222-224969495363",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "0534f6fd-bb19-5e97-9222-224969495363",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:60d05588-c048-546a-bf5c-dccf1be0c8b5",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "60d05588-c048-546a-bf5c-dccf1be0c8b5",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f1ab00ac-0193-597e-8dc2-1d391df54ba8",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f1ab00ac-0193-597e-8dc2-1d391df54ba8",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:8e86eb90-48c3-5589-9d83-e2fc441cdd63",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "8e86eb90-48c3-5589-9d83-e2fc441cdd63",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:01c739ee-3d97-591c-a5bf-c27df9264392",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "01c739ee-3d97-591c-a5bf-c27df9264392",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:6db29a6b-58cd-5fa3-a86f-7030bb934dd6",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "6db29a6b-58cd-5fa3-a86f-7030bb934dd6",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:556fc84d-a189-5b8b-9aa6-a9c2bad53d69",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "556fc84d-a189-5b8b-9aa6-a9c2bad53d69",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:23d6fc27-ec9a-5330-9801-7ca32f75034d",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "23d6fc27-ec9a-5330-9801-7ca32f75034d",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:7cf8b61f-0091-5699-a1b8-233eb2a038c6",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "7cf8b61f-0091-5699-a1b8-233eb2a038c6",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:e63f0fd0-8ad7-5cd9-a74f-86d4fd1deddd",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "e63f0fd0-8ad7-5cd9-a74f-86d4fd1deddd",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:6f8459f6-d4d5-5c66-b633-4d18217e30c1",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "6f8459f6-d4d5-5c66-b633-4d18217e30c1",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:8b8c0625-630b-5fa9-b12e-e9a20af4b38d",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "8b8c0625-630b-5fa9-b12e-e9a20af4b38d",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:c9d1bd61-9d0b-5a14-b6fb-3655727cf7d6",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c9d1bd61-9d0b-5a14-b6fb-3655727cf7d6",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f2fd8660-8a39-525f-9733-cf494e70f26f",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f2fd8660-8a39-525f-9733-cf494e70f26f",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:fbcc9966-cb4f-5b43-981f-a458a5d87671",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "fbcc9966-cb4f-5b43-981f-a458a5d87671",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:178a941b-96de-5add-9160-35e765801520",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "178a941b-96de-5add-9160-35e765801520",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:53c45e04-ce95-5682-8f26-dc99e77ba49b",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "53c45e04-ce95-5682-8f26-dc99e77ba49b",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:a6766f19-edf8-557f-8c2c-7f0ebe241d21",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "a6766f19-edf8-557f-8c2c-7f0ebe241d21",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:2f4f0601-d0f4-566e-8254-903248c0404e",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "2f4f0601-d0f4-566e-8254-903248c0404e",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:7b3e559d-bd5c-568b-a652-8507cf35e6c7",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "7b3e559d-bd5c-568b-a652-8507cf35e6c7",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:73743326-c87d-5ee5-9201-a7edcd20648e",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "73743326-c87d-5ee5-9201-a7edcd20648e",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:dc28b4ab-52b9-5cd9-ad2c-0a6fabc0b0a5",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "dc28b4ab-52b9-5cd9-ad2c-0a6fabc0b0a5",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:df61bc7e-b9fc-5a36-8064-c46fcfd5fd29",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "df61bc7e-b9fc-5a36-8064-c46fcfd5fd29",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:03ca379c-2dc9-5035-9271-bef6ddf634a3",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "03ca379c-2dc9-5035-9271-bef6ddf634a3",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3b76ab76-7886-55e7-ab44-769d5463fd86"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:991f30fb-7afe-5bb3-bee4-19cf48f1ae10",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "991f30fb-7afe-5bb3-bee4-19cf48f1ae10",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb5af68-5492-5679-b718-20bbc11073f7"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:e671f2a2-6dcb-583e-a6b7-5a129ab02814",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "e671f2a2-6dcb-583e-a6b7-5a129ab02814",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:f7957bf8-e10b-5c80-8d0a-e9d55ff2cd65"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:bf64c7ce-2615-54b9-98fb-427917a288ef",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "bf64c7ce-2615-54b9-98fb-427917a288ef",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:f59c3c2c-3a79-5522-9430-c73f9fb48875"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:b12b2abd-25d4-5c01-9599-fe6a2ca1dd32",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "b12b2abd-25d4-5c01-9599-fe6a2ca1dd32",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:f7957bf8-e10b-5c80-8d0a-e9d55ff2cd65"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:c30f27df-e4e0-5522-b86c-93f36e1ec07b",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c30f27df-e4e0-5522-b86c-93f36e1ec07b",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:f59c3c2c-3a79-5522-9430-c73f9fb48875"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:c5692f86-f279-5e75-aa38-aafb5be4c48e",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c5692f86-f279-5e75-aa38-aafb5be4c48e",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:bf0037a5-7a61-5f71-be3b-6efbc7500eb5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:0faea9a4-99d3-5b21-b8bc-babe2c6c7359",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "0faea9a4-99d3-5b21-b8bc-babe2c6c7359",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:18ba0094-3a86-561f-bd2d-f92bea53eb2a"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:15267cc1-058a-5fa0-848c-bddabfbb0cf3",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "15267cc1-058a-5fa0-848c-bddabfbb0cf3",
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:5b140bf7-e8e9-5de5-a8a9-b43bbcf90a78"
+                }
+            ]
+        }
+    ]
+}
